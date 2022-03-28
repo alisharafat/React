@@ -1,0 +1,51 @@
+body{
+
+  /* background-color: blue; */
+  padding: 0;
+
+}
+
+.app{
+  background-color: rgb(34, 219, 10);
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  background-color: rgb(223, 247, 247);
+  height: 50px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  /* padding: 5px; */
+  /* margin-left: 20px; */
+  /* bottom: 32px; */
+}
+
+
+.container{
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+ 
+}
+
+.newsBox{
+  display: inline-block;
+  border: 1px solid grey;
+  box-shadow: 3px 3px 3px rgb(221, 219, 219);
+  border-radius: 5px;
+  width: 350px;
+  margin: 15px;
+  /* padding: 55px; */
+}
+
+h1{
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Gill Sans';
+  
+}
