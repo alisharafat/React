@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    background-image: url(../images/foods.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    height: 89vh;
+}
+
+
+

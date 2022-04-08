@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.class1{
+    z-index: 5;
+    position: sticky;
+    top: 0;
+    height: 80px;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+}
+.logo{
+    margin-left: 5%;
+    height: 100%;
+    display: flex;
+    /* flex: 20%; */
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+img{
+    height: 60px;
+    margin-left: 10%;
+    
+}
+.nav {
+    width: 100vw;
+    margin-right: 50px;
+    display: flex;
+    gap: 30px;
+    color: white;
+    justify-content:flex-end;
+    align-items: center;
+
+   
+}
+
+.nav a{
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .nav{
+        display: none;
+      
+    }
+    .logo{
+        display: none;
+    }
+    .mobileLinks{
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 20px;
+        margin-left: 20px;
+        color: white;
+        align-items: center;
+        
+
+    }
+    .mobileLinks a{
+        font-size: 1.2rem;
+        color: white;
+        text-decoration: none;
+    }
+    .closeLinks{
+        display: none;
+    }
+    .mobile{
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 5%;
+    }
+    .showLogo{
+        margin-top: 7px;
+    }
+
+    .hideLogo{
+        display: none;
+    }
+}
+
+@media only screen and (min-width :600px){
+   .mobile {
+       display: none;
+
+    }
+    .mobileLinks{
+        display: none;
+    }
+
+}
+ button {
+    background-color:transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    padding: 24px;
+  }
+
+  
+
+
