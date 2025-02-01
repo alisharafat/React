@@ -43,7 +43,7 @@ export default function Main(props) {
   return (
     <div className='container'>
     <h2 style={props.mode=="dark"?{color:"white"}:{}} >TextUtils-Word Counter</h2>
-      <textarea className='textarea' style={props.mode=="dark"?{color:"white",backgroundColor:"rgb(5, 69, 99)"}:{}} value={text} onChange={onChangeFun} name="" id="textarea" cols="30" rows="10"></textarea>
+      <textarea placeholder="gg"className='textarea' style={props.mode=="dark"?{color:"white",backgroundColor:"rgb(5, 69, 99)"}:{}} value={text} onChange={onChangeFun} name="" id="textarea" cols="30" rows="10"></textarea>
       <div className='btnContainer'>
         <button className='funBtn'  onClick={text.length!=0 &&upClickFun}>Convert to UpperCase</button>
         <button className='funBtn' onClick={text.length!=0 && loClickFun}>Convert to Lowercase</button>

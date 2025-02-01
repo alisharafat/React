@@ -10,7 +10,7 @@ function News(props) {
 
 
     async function getNews(){
-        const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page} &pageSize=12`; 
+        const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page} &pageSize=18`; 
         let data=await fetch(url);
         let parsedData=await data.json();
         setTotal(parsedData.totalResults);

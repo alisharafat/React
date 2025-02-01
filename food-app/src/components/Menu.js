@@ -19,18 +19,34 @@ export default function Menu() {
   return (
 
     <div className='menu'>  
+    <h1>Our Menu</h1>
     <div>  
     <Box >
-      <Grid container spacing={{ xs: 1, md: 1 }} columns={{ xs: 12, sx:12, md: 12,lg:12 }}>
-           {MenuItems.map((menuItem)=>{
-             return(
-              <Grid item xs={12} sx={6} md={6} lg={4} style={{marginTop:"30px",display:"flex",justifyContent:"center"}}>
-              <Card  
-                    image={menuItem.image}
-                    name={menuItem.name}
-                    price={menuItem.price}
-                   />
-              </Grid> 
+      <Grid container spacing={{ xs: 1, md: 1 }} columns={{ xs: 12, md: 12,lg:12 }}>
+        {console.log(MenuItems, "men")}
+           {MenuItems.map((menuItem, index)=>{
+             return (
+               <Grid
+                 key={index}
+                 item
+                 xs={12}
+                 md={6}
+                 lg={4}
+                 style={{
+                   marginTop: "30px",
+                   display: "flex",
+                   justifyContent: "center",
+                 }}
+               >
+                  <Card
+                   id={menuItem.id}
+                   image={menuItem.card.card.info.cloudinaryImageId}
+                   name={menuItem.card.card.info.name}
+                   price={menuItem.card.card.info.costForTwoMessage
+                   }
+                   rate={menuItem.card.card.info.costForTwo/100}
+                 />
+               </Grid>
              );
            })}
          

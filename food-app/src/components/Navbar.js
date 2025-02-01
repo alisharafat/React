@@ -24,7 +24,7 @@ function Navbar() {
         <div className={links ?"mobileLinks":"closeLinks"}>
         <Link to="/">Home</Link>
         <Link to="/menu">Menu</Link>
-        <Link to="/about">About</Link>
+        <Link to="/cart">Cart</Link>
         <Link to="/contact">Contact</Link>
       </div> 
         <button  onClick={toggleNavbar}>  <ReorderIcon fontSize='large' /> </button>
@@ -32,7 +32,7 @@ function Navbar() {
       <div className="nav">
         <Link to="/">Home</Link>
         <Link to="/menu">Menu</Link>
-        <Link to="/about">About</Link>
+        <Link to="/cart">Cart</Link>
         <Link to="/contact">Contact</Link>
       </div>
     </div>

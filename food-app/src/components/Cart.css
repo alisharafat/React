@@ -1,0 +1,22 @@
+.cart {
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 16px auto;
+  }
+  
+  .cart ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cart li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .cart h2 {
+    margin-bottom: 16px;
+  }
+  

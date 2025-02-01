@@ -33,15 +33,7 @@ body{
  
 }
 
-.newsBox{
-  display: inline-block;
-  border: 1px solid grey;
-  box-shadow: 3px 3px 3px rgb(221, 219, 219);
-  border-radius: 5px;
-  width: 350px;
-  margin: 15px;
-  /* padding: 55px; */
-}
+
 
 h1{
   text-align: center;
