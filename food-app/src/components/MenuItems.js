@@ -1,164 +1,54 @@
 
 export const MenuItems = [
-  {
-    "id": 1,
-    "name": "Butter Chicken",
-    "price": 300,
-    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "rating": 4.5,
-    "isVeg": false
-  },
-  {
-    "id": 2,
-    "name": "Biryani",
-    "price": 200,
-    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "rating": 4.7,
-    "isVeg": true
-  },
-  {
-    "id": 3,
-    "name": "Tandoori Chicken",
-    "price": 350,
-    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "rating": 4.6,
-    "isVeg": false
-  },
-  {
-    "id": 4,
-    "name": "Aloo Gobi",
-    "price": 120,
-    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "rating": 4.2,
-    "isVeg": true
-  },
-  {
-    "id": 5,
-    "name": "Palak Paneer",
-    "price": 180,
-    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "rating": 4.3,
-    "isVeg": true
-  },
-  {
-    "id": 6,
-    "name": "Chole Bhature",
-    "price": 160,
-    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "rating": 4.1,
-    "isVeg": true
-  },
-  {
-    "id": 7,
-    "name": "Samosa",
-    "price": 30,
-    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "rating": 4.4,
-    "isVeg": true
-  },
-  {
-    "id": 8,
-    "name": "Dosa",
-    "price": 100,
-    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "rating": 4.8,
-    "isVeg": true
-  },
-  {
-    "id": 9,
-    "name": "Vada Pav",
-    "price": 60,
-    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "rating": 4.0,
-    "isVeg": true
-  },
-  {
-    "id": 10,
-    "name": "Bhel Puri",
-    "price": 50,
-    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "rating": 3.9,
-    "isVeg": true
-  },
-  {
-    "id": 11,
-    "name": "Pani Puri",
-    "price": 80,
-    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "rating": 4.7,
-    "isVeg": true
-  },
-  {
-    "id": 12,
-    "name": "Pav Bhaji",
-    "price": 140,
-    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "rating": 4.2,
-    "isVeg": true
-  },
-  {
-    "id": 13,
-    "name": "Tandoori Paneer",
-    "price": 250,
-    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "rating": 4.5,
-    "isVeg": true
-  },
-  {
-    "id": 14,
-    "name": "Kebabs",
-    "price": 220,
-    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "rating": 4.4,
-    "isVeg": false
-  },
-  {
-    "id": 15,
-    "name": "Paneer Butter Masala",
-    "price": 220,
-    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "rating": 4.6,
-    "isVeg": true
-  },
-  {
-    "id": 16,
-    "name": "Dal Makhani",
-    "price": 150,
-    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "rating": 4.4,
-    "isVeg": true
-  },
-  {
-    "id": 17,
-    "name": "Aloo Paratha",
-    "price": 120,
-    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "rating": 4.0,
-    "isVeg": true
-  },
-  {
-    "id": 18,
-    "name": "Methi Thepla",
-    "price": 110,
-    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "rating": 4.6,
-    "isVeg": true
-  },
-  {
-    "id": 19,
-    "name": "Masala Dosa",
-    "price": 130,
-    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "rating": 4.8,
-    "isVeg": true
-  },
-  {
-    "id": 20,
-    "name": "Lassi",
-    "price": 50,
-    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "rating": 4.1,
-    "isVeg": true
-  }
+  { "id": 1, "name": "Cheese Pizza", "rating": 3.9, "price": 299, "image": "https://media.istockphoto.com/id/187248625/photo/pepperoni-pizza.jpg?s=612x612&w=0&k=20&c=QHrM65XqDQd3Z50r5cT2qV4nwctw6rNMM1JTlGEEVzI=" },
+    { "id": 2, "name": "Dosa", "rating": 4.0, "price": 139.99, "image": "https://images.unsplash.com/photo-1668236543090-82eba5ee5976?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGRvc2F8ZW58MHx8MHx8fDA%3D" },
+    { "id": 3, "name": "Chicken Briyani", "rating": 4.9, "price": 399.99, "image": "https://images.unsplash.com/photo-1716550781939-beb7d7247aae?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YnJpeWFuaXxlbnwwfHwwfHx8MA%3D%3D" },
+    { "id": 4, "name": "Crispy Chicken Popcorn", "rating": 4.3, "price": 199.99, "image": "https://media.istockphoto.com/id/1412220089/photo/homemade-crispy-popcorn-chicken-in-white-plate-with-tomato-ketchup-and-bbq-sauce-isolated-on.webp?a=1&b=1&s=612x612&w=0&k=20&c=1FL7hP6Neg00pSPMrh9Y09_esWulkSR_FgfUEJWIkZI=" },
+    { "id": 5, "name": "Chicken Tikka Masala", "rating": 4.8, "price": 499.99, "image": "https://media.istockphoto.com/id/1320005396/photo/chicken-tikka-kebab.webp?a=1&b=1&s=612x612&w=0&k=20&c=6RORRBU02Dc_PCwN2giuGtxwExkTzhPAZNtvRo9qmI0=" },
+    { "id": 6, "name": "Cheesy Chicken Burger", "rating": 4.4, "price": 119, "image": "https://media.istockphoto.com/id/1134613434/photo/burger-on-a-red-gradient-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=LixSGH4WdnIDkdEOWH2RS7iRo5VLXx38tlAfxp7imAo=" },
+    { "id": 7, "name": "Crispy Veg Burger", "rating": 3.2, "price":99, "image": "https://images.unsplash.com/photo-1520072959219-c595dc870360?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGNyaXNweSUyMHZlZyUyMGJ1cmdlcnxlbnwwfHwwfHx8MA%3D%3D" },
+    { "id": 8, "name": "Aloo Pyaaz Paratha", "rating": 4.9, "price": 69.99, "image": "https://media.istockphoto.com/id/2184475680/photo/sattu-paratha-is-a-savory-flatbread-made-with-roasted-gram-flour-served-with-tangy-pickle-and.jpg?s=612x612&w=0&k=20&c=2a4lc94NtHHcGenmG_WlGgNOMw4asAS19_TgH73AN1Y=" },
+    { "id": 9, "name": "Anda Tawa Paratha", "rating": 4.5, "price": 165.99, "image": "https://media.istockphoto.com/id/1498331536/photo/plain-paratha-or-parata-served-in-dish-isolated-top-view-of-singapore-food.jpg?s=612x612&w=0&k=20&c=vPexZaPE_hripx7pqmFZZfWgCjIFewTqZd4cDFIc37g=" },
+    { "id": 10, "name": "Non Veg Deluxe Thali", "rating": 4.6, "price": 444.99, "image": "https://media.istockphoto.com/id/1255577137/photo/traditional-indian-dishes-paes-and-misti-doi-blurred-rice-and-non-veg-bengali-meal-special.webp?a=1&b=1&s=612x612&w=0&k=20&c=z0WlS2psUDyhFEEkLgO6aR1yS4sRQoCHTGOYqQ2jhY8=" },
+    { "id": 11, "name": "Veg Thali", "rating": 3.7, "price": 149.99, "image": "https://media.istockphoto.com/id/1158623408/photo/indian-hindu-veg-thali-food-platter-selective-focus.webp?a=1&b=1&s=612x612&w=0&k=20&c=WOCrpfQJRlyY9W84K4iAaIfJVCWbIs_UroFYKK9y1Qg=" },
+    { "id": 12, "name": "Paneer Tikka", "rating": 4.3, "price": 299.49, "image": "https://media.istockphoto.com/id/1474136049/photo/close-up-image-of-paneer-kebabs-marinated-curd-cheese-pieces-on-metal-skewers-red-onion-and.webp?a=1&b=1&s=612x612&w=0&k=20&c=cvfV2qr33X-FNf0E4GCYnVovx3w7DdXmyIxv4EuMLII=" },
+    { "id": 13, "name": "Paneer Butter Masala", "rating": 4.2, "price": 199.49, "image": "https://media.istockphoto.com/id/885881832/photo/butter-paneer-masala-traditional-indian-paneer-curry.webp?a=1&b=1&s=612x612&w=0&k=20&c=_WRpnLKy8_j4UsTzFH-ZHDS1qAlwELyEEyeD7XTv3g8=" },
+    { "id": 14, "name": "Shahi Paneer", "rating": 4.8, "price": 299, "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c2hhaGklMjBwYW5lZXJ8ZW58MHx8MHx8fDA%3D" },
+    { "id": 15, "name": "Paneer Roll ", "rating": 3.9, "price": 90, "image": "https://media.istockphoto.com/id/1352474720/photo/fresh-paneer-roll-with-fresh-tomatos-salad-cheese-and-onions-isolated-on-bright-blue.webp?a=1&b=1&s=612x612&w=0&k=20&c=HHeBNencFEcT2ZplHH2SJ-5us8L-m8GYHmfMhoMuzaw=" },
+    { "id": 16, "name": "Chicken Roll", "rating": 4.6, "price": 139, "image": "https://media.istockphoto.com/id/171579564/photo/chicken-souvlaki-wrap.webp?a=1&b=1&s=612x612&w=0&k=20&c=PClOgCTeIi8F77XbDK3B5iWVcJo5Pw9Nt7vp-CgpC-w=" },
+    { "id": 17, "name": "Chicken Momo", "rating": 4.7, "price": 99, "image": "https://media.istockphoto.com/id/1341504203/photo/fried-momos-dumpling.webp?a=1&b=1&s=612x612&w=0&k=20&c=mtHAwF3TH997DT_4gJ-hgECmJ-uVhAQvFAsxIEulrSI=" },
+    { "id": 18, "name": "Veg Momo", "rating": 4.4, "price": 79, "image": "https://media.istockphoto.com/id/1292635321/photo/veg-steam-momo-nepalese-traditional-dish-momo-stuffed-with-vegetables-and-then-cooked-and.webp?a=1&b=1&s=612x612&w=0&k=20&c=UnTAWRhFjF0ERXdBmZXCYQU5nsLGAHfKwbGBqQ6QzT0=" },
+    { "id": 19, "name": "Tandoori Chicken", "rating": 4.5, "price": 299, "image": "https://plus.unsplash.com/premium_photo-1695931841253-1e17e7ed59b5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8VEFORE9PUkklMjBjaGlja2VufGVufDB8fDB8fHww" },
+    { "id": 20, "name": "Shawarma", "rating": 4.8, "price": 89, "image": "https://images.unsplash.com/photo-1583665354191-634609954d54?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U2hhd2FybWF8ZW58MHx8MHx8fDA%3D" },
+    { "id": 21, "name": "Strawberry Ice Cream", "rating": 4.7, "price":275.99 , "image": "https://media.istockphoto.com/id/157472912/photo/ice-cream-composition-on-a-bowl.webp?a=1&b=1&s=612x612&w=0&k=20&c=e1yPCusQJl2scx955yuv9LUcbx5e7OcARC_VgEDdz5Y=" },
+    { "id": 22, "name": "Brownie Blast Ice Cream", "rating": 4.5, "price": 299.99, "image": "https://media.istockphoto.com/id/157586474/photo/vanilla-ice-cream-and-walnut-brownie.webp?a=1&b=1&s=612x612&w=0&k=20&c=4HW7Y37nklE35VU9Il3vl43wlrzNYmC_7_Df1XuugTM=" },
+    { "id": 23, "name": "Chole Bhature", "rating": 4.3, "price": 130, "image": "https://media.istockphoto.com/id/873539518/photo/deep-fried-bread-spicy-chickpeas-curry-and-salad.webp?a=1&b=1&s=612x612&w=0&k=20&c=qZP4pFv7bTarFakFrB6nDdjmAtwZzm1RA7ZOGTJlQRA=" },
+    { "id": 24, "name": "masala Idli", "rating": 3.5, "price": 175, "image": "https://media.istockphoto.com/id/1424489174/photo/idly-sambar-or-idli-with-sambhar-and-green-red-chutney-popular-south-indian-breakfast.webp?a=1&b=1&s=612x612&w=0&k=20&c=PVwUqQGw155iEczXtDG300_RnRBfvfojEKO10HmRxls=" },
+    { "id": 25, "name": "Podi Idli", "rating": 3.9, "price": 245, "image": "https://media.istockphoto.com/id/1292633142/photo/podi-idli-is-a-delicious-breakfast-dish-from-south-india-freshly-steamed-mini-idli-tossed.webp?a=1&b=1&s=612x612&w=0&k=20&c=7O1xQ1nuA7_2NAFBBryOw0E_sawMAsoB81zW5JZsbjk=" },
+    { "id": 26, "name": "White Sauce Pasta", "rating": 4.5, "price": 189, "image": "https://media.istockphoto.com/id/1440427895/photo/top-view-of-pasta-in-white-sauce-in-a-bowl.webp?a=1&b=1&s=612x612&w=0&k=20&c=TPMYz4tLzX6Mx-EG17nTmemcMWTijh4dQ9eRdPWhGkM=" },
+    { "id": 27, "name": "Garlic Bread", "rating": 4.0, "price": 159, "image": "https://media.istockphoto.com/id/1136429305/photo/stuffed-garlic-bread.webp?a=1&b=1&s=612x612&w=0&k=20&c=sdNd2n7m7MdESgc7ywWRuVS9StTXInlgaxSqLjnG6rg=" },
+    { "id": 28, "name": "Veg  Noodles", "rating": 3.0, "price": 110, "image": "https://media.istockphoto.com/id/1292637257/photo/veg-hakka-noodles-a-popular-oriental-dish-made-with-noodles-and-vegetables-served-over-a.webp?a=1&b=1&s=612x612&w=0&k=20&c=0xbbDCOhb_rLXHueLmoc0zBzmE8FR7xrDyvjflUlEQ8=" },
+    { "id": 29, "name": "Veg Kurkure Momos", "rating": 3.5, "price": 115, "image": "https://media.istockphoto.com/id/1347713671/photo/kurkure-momos.webp?a=1&b=1&s=612x612&w=0&k=20&c=kFofkmuNpwM_Z2vHtoRhk6rDPryXxN8sRKuw9ZNAldA=" },
+    { "id": 30, "name": "Mutton Nahari", "rating": 3.8, "price": 459, "image": "https://media.istockphoto.com/id/172376825/photo/barbecued-ribs-mexican-style.webp?a=1&b=1&s=612x612&w=0&k=20&c=8-gLne375tvuEjyo2NUrCiVI0FQN4NXJ3XRuuC8A_BM=" },
+    { "id": 31, "name": "Plain Sandwich", "rating": 3.5, "price": 100, "image": "https://media.istockphoto.com/id/912720762/photo/sandwich.webp?a=1&b=1&s=612x612&w=0&k=20&c=1Yhl9GM3FstzmL40-zw9yQ4Rj38d_Vj9RA6ZEACo9dc=" },
+    { "id": 32, "name": "Sprinkled Fries", "rating": 4.5, "price": 109, "image": "https://images.unsplash.com/photo-1518013431117-eb1465fa5752?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3ByaW5rZWwlMjBmcmllc3xlbnwwfHwwfHx8MA%3D%3D" },
+    { "id": 33, "name": "Chicken Nuggeets", "rating": 4.5, "price": 195, "image": "https://media.istockphoto.com/id/520326646/photo/beer-battered-fish-bites-with-tarter-sauce.webp?a=1&b=1&s=612x612&w=0&k=20&c=s29lypRsq_P7Don0SnbAPd3zkSwf2bkWLQ8PRtKxG_s=" },
+    { "id": 34, "name": "Paw Bhaji", "rating": 4, "price": 160, "image": "https://media.istockphoto.com/id/1037279284/photo/vada-pau-bread-and-green-sauce-on-a-plate-in-dark-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=LfF5deoCf-B9CplCl1kUpg4-0ct30_1lbwWDiuJTUOc=" },
+    { "id": 35, "name": "Samosa", "rating": 3.5, "price": 25, "image": "https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c2Ftb3NhfGVufDB8fDB8fHww" },
+    { "id": 36, "name": "Dal Makhni", "rating": 4.5, "price": 189, "image": "https://media.istockphoto.com/id/531241066/photo/dal-makhani-or-dal-makhani-or-daal-makhni.webp?a=1&b=1&s=612x612&w=0&k=20&c=DgZxad4-2Q0II88BRi60BtfASi1bZYb8Xx6LBZZWmgY=" },
+    { "id": 37, "name": "Seekh Kebab", "rating": 4.7, "price": 289, "image": "https://media.istockphoto.com/id/501266025/photo/seekh-kabab-5.webp?a=1&b=1&s=612x612&w=0&k=20&c=1r-z4KoXCcFJXcEe5Jrky7e2VXyTYX5yfXwip-JVtm8=" },
+    { "id": 38, "name": "Waffle ", "rating": 4.5, "price": 349, "image": "https://media.istockphoto.com/id/1298128722/photo/whole-wheat-belgium-waffle-topped-with-ice-cream.webp?a=1&b=1&s=612x612&w=0&k=20&c=zDOZpAj-9oLEz_IoHhda6ZbDOdUPnQR65TTHi-6TBSc=" },
+    { "id": 39, "name": "Gulab Jamun", "rating": 4.3, "price": 68, "image": "https://media.istockphoto.com/id/1188000786/photo/gulab-jamun-in-bowl-on-wooden-background-indian-dessert-or-sweet-dish.webp?a=1&b=1&s=612x612&w=0&k=20&c=4kVDa_BP4pypOSvfDSL2mmLNO3SYdoAs1VG-qi4WAtI=" },
+    { "id": 40, "name": "Dahi Bhalle", "rating": 3.8, "price":150 , "image": "https://images.unsplash.com/photo-1655740283378-269ebc3dc23a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGFoaSUyMGJoYWxsZXxlbnwwfHwwfHx8MA%3D%3D" },
+    { "id": 41, "name": "Tacos", "rating": 4.4, "price": 139, "image": "https://plus.unsplash.com/premium_photo-1661730329741-b3bf77019b39?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dGFjb3N8ZW58MHx8MHx8fDA%3D" },
+    { "id": 42, "name": "Fish Tikaa", "rating": 4.2, "price": 675, "image": "https://media.istockphoto.com/id/2043767125/photo/lemon-being-squeezed-over-shrimp-tandoori.webp?a=1&b=1&s=612x612&w=0&k=20&c=PY22LRPcA6rgfLXIA_2m7PoI_aYtHOB-FyM5DIXEtJQ=" },
+    { "id": 43, "name": "Rajma Chawal", "rating": 4, "price": 120, "image": "https://media.istockphoto.com/id/2172527854/photo/typical-north-indian-food-main-course-kidney-bean-curry-or-rajma-chawal-served-in-white.webp?a=1&b=1&s=612x612&w=0&k=20&c=Ie8Dt1SDkL1KEJZhyodp-19AYGWQZxaUarlonvuooOw=" },
+    { "id": 44, "name": "Dhokla", "rating": 3.3, "price": 142.99, "image": "https://media.istockphoto.com/id/2154971502/photo/famous-gujrati-snack-dhokla-made-with-gram-flour-and-sugar-syrup-decorated-with-mint-and.webp?a=1&b=1&s=612x612&w=0&k=20&c=MacEDJlATPi0-ztKaDwBRJxq4k9KPKI6MhZwEoZdQeg=" },
+    { "id": 45, "name": "Veg Pulao ", "rating": 4.5, "price":169, "image": "https://media.istockphoto.com/id/2150792768/photo/carrots-and-peas-pilaf-or-gajar-matar-pulao-it-is-a-one-pot-rice-dish-made-with-basmati-rice.webp?a=1&b=1&s=612x612&w=0&k=20&c=4ljLhOr2prczjGKTth6ZpzA61GgtxPnwDLI6AZb6HVg=" },
+    { "id": 46, "name": "Aloo Tikki", "rating": 4, "price": 170, "image": "https://media.istockphoto.com/id/1204866681/photo/tasty-aloo-tikki%C2%A0is-a-popular-indian-street-food-which-is-basically-crispy-and-spicy-potato.webp?a=1&b=1&s=612x612&w=0&k=20&c=WiiJX0Bi2IPPbg7LejFtvZpy7DA4wgCewVvMvLIoRO8=" },
+    { "id": 47, "name": "Chicken Korma", "rating": 4.8, "price": 299, "image": "https://media.istockphoto.com/id/836277050/photo/indian-food-or-indian-curry-in-a-copper-brass-serving-bowl.jpg?s=612x612&w=0&k=20&c=Cvf1SBOkeQdFzP9bJs12WMSC3RQECj1-VA4GKxDl4OQ=" },
+    { "id": 48, "name": "Poori Sabzi", "rating": 3.2, "price": 49, "image": "https://media.istockphoto.com/id/2161423001/photo/puri-and-choley.webp?a=1&b=1&s=612x612&w=0&k=20&c=TrWV9TgQFBqE8Ah3AFtZA9SF5qL6f_LusSWxgI_Po-I=" },
+    { "id": 49, "name": "Mashrooms", "rating": 4.5, "price": 270, "image": "https://media.istockphoto.com/id/1846026792/photo/kalan-curry-mushroom-curry-south-indian-style-button-mushroom-masala.webp?a=1&b=1&s=612x612&w=0&k=20&c=kPTBxGWY5PudkN3xbGEK8-jd1VvfVoV_W53UNSfFBv8=" },
+    { "id": 50, "name": "Tawa Chicken Keema With kulcha", "rating": 4.9, "price": 239, "image": "https://media.istockphoto.com/id/801888640/photo/mutton-or-chicken-kheema-pav-or-kulcha.jpg?s=612x612&w=0&k=20&c=F0IriTuqRbQaML9iGs4ZpMu_uNbRdLv-YpatzFthOhM=" }
 ]
 

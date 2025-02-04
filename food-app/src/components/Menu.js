@@ -40,11 +40,10 @@ export default function Menu() {
                >
                   <Card
                    id={menuItem.id}
-                   image={menuItem.card.card.info.cloudinaryImageId}
-                   name={menuItem.card.card.info.name}
-                   price={menuItem.card.card.info.costForTwoMessage
-                   }
-                   rate={menuItem.card.card.info.costForTwo/100}
+                   image={menuItem.image}
+                   name={menuItem.name}
+                   price={Math.round(menuItem.price)}
+                   rating={menuItem.rating}
                  />
                </Grid>
              );

@@ -45,9 +45,8 @@ function Card(props) {
         price: props.price,
         quantity: quantity,
         image: props.image,
-        rate:props.rate // Include the image
+        rate:props.rate 
       });
-      // Maintain the current quantity, so it doesn't reset to 0
     }
   };
 
@@ -55,12 +54,11 @@ function Card(props) {
     <div className="card">
       <img
         src={
-          "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_264,h_288,c_fill/" +
           props.image
         }
         alt={props.name}
       />
-      <h2>{props.name}</h2>
+      <h2>{props.name} <span>({props.rating}*)</span></h2>
       <h3>₹{props.price}</h3>
       <div>
         <span>{quantity}</span>

@@ -14,12 +14,17 @@
 import React from 'react';
 import './Cart.css';
 import { useCart } from './CartContext';
+import { Button } from '@mui/material';
 
 function Cart() {
   const { cart } = useCart();
 
-  // Calculate the total price of items in the cart
-  const totalPrice = cart.reduce((sum, item) => sum + item.rate * item.quantity, 0);
+  const totalPrice = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
+  const placeOrder = ()=>{
+    console.log("order")
+    alert("Your order has been placed!")
+  }
+
 
   return (
     <div className="cart">
@@ -33,7 +38,6 @@ function Cart() {
               <div className="cart-item" key={item.id}>
                 <img
                   src={
-                    "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_264,h_288,c_fill/" +
                     item.image
                   }
                   alt={item.name}
@@ -43,7 +47,7 @@ function Cart() {
                   <h3>{item.name}</h3>
                   <p>Price: ₹{item.price}</p>
                   <p>Quantity: {item.quantity}</p>
-                  <p>Amount: ₹{item.rate *item.quantity}</p>
+                  <p>Amount: ₹{(item.price*item.quantity)}</p>
                 </div>
               </div>
             ))}
@@ -52,8 +56,12 @@ function Cart() {
             <h3>Cart Summary</h3>
             <p>
               <strong>Total Price: ₹{totalPrice}</strong>
+              <div>
+            <Button onClick={placeOrder}>Place Your Order</Button>
+          </div>
             </p>
           </div>
+         
         </>
       )}
     </div>
