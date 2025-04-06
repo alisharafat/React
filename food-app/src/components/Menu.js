@@ -23,7 +23,6 @@ export default function Menu() {
     <div>  
     <Box >
       <Grid container spacing={{ xs: 1, md: 1 }} columns={{ xs: 12, md: 12,lg:12 }}>
-        {console.log(MenuItems, "men")}
            {MenuItems.map((menuItem, index)=>{
              return (
                <Grid

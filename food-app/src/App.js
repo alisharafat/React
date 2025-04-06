@@ -34,6 +34,7 @@
 
 
 import './App.css';
+import { useState } from 'react';
 import * as React from 'react';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
@@ -42,15 +43,19 @@ import Contact from './components/Contact';
 import Cart from './components/Cart';
 import { CartProvider } from './components/CartContext';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import LoginPage from './components/LoginPage';
 
 function App() {
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
   return (
     <CartProvider>
       <Router>
         <div className="App">
-          <Navbar />
+          <Navbar isLoggedIn={isLoggedIn}/>
           <Routes>
-            <Route path="/" element={<Home />} />
+            {isLoggedIn == true ? <Route path="/" element={<Home/>}/> : <Route path="/" element={<LoginPage setIsLoggedIn={setIsLoggedIn}/>} />}
+            {/* <Route path="/" element={<LoginPage setIsLoggedIn={setIsLoggedIn}/>} /> */}
+            <Route path="/home" element={<Home/>}/> 
             <Route path="/menu" element={<Menu />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="/contact" element={<Contact />} />

@@ -35,7 +35,6 @@ import { useCart } from './CartContext';
 function Card(props) {
   const [quantity, setQuantity] = useState(0);
   const { addToCart } = useCart();
-  console.log(props);
 
   const handleAddToCart = () => {
     if (quantity > 0) {
